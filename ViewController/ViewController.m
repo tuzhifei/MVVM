@@ -34,7 +34,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-    self.navigationItem.title = @"MVVM";
+    self.navigationItem.title = @"MVVM  Test";
     
     PersonView *perView = [[PersonView alloc]initWithFrame:CGRectMake(0, 64, SCREEN_WIDTH, SCREEN_HEIGHT-64)];
     perView.backgroundColor = [UIColor lightGrayColor];
